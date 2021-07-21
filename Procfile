@@ -1,1 +1,1 @@
-web: gunicorn app1:loan
+web: gunicorn wsgi:app
